@@ -6,7 +6,7 @@ export class Ui {
       games += `
           <div class="col">
           <div data-id="${
-            //stores the value of data[i].id in the data-id attribute the can access the value using dataset property
+        
             data[i].id
           }"  class="card h-100 bg-transparent" role="button" ">
              <div  class="card-body">
