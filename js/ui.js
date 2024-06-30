@@ -59,3 +59,5 @@ export class Ui {
     document.getElementById("details-photo").innerHTML = screenshots;
   }
 }
+
+
