@@ -15,7 +15,7 @@ export class Ui {
                      data[i].thumbnail
                    }" />                
                 </figure>
-                <figcaption>    
+                <caption>    
                    <div class="hstack justify-content-between">
                       <h3 class="h6 small">${data[i].title}</h3>
                       <span class="badge text-bg-primary p-2">Free</span>
@@ -23,7 +23,7 @@ export class Ui {
                    <p class="card-text small text-center opacity-50">
                       ${data[i].short_description.split(" ", 15)}
                    </p>    
-                </figcaption>
+                <caption>
              </div>
              <footer class="card-footer small hstack justify-content-between">    
                 <span class="badge badge-color">${data[i].genre}</span>
